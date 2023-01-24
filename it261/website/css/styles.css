@@ -57,12 +57,14 @@ main {
     width:62%;
     background:lightblue;
     float:left;
+    padding:10px;
 }
 
 aside {
     width:35%;
     background:lightsalmon;
     float:right;
+    padding:10px;
 }
 
 footer {
@@ -92,6 +94,7 @@ img {
 p {
     margin-bottom:20px;
     line-height:1.4;
+
 }
 
 h1 {
