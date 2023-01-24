@@ -17,6 +17,7 @@ if(isset($_GET['today'])) {
     echo 'NOT!!!!!!!!!!';
 }
  */
+date_default_timezone_set('America/Los_Angeles');
 if(isset($_GET['today'])) {
     $today = $_GET['today'];
 } else {

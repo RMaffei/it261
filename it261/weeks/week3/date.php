@@ -24,9 +24,9 @@ if($our_time <= 11) {
 } elseif ($our_time <= 17) {
     echo '<h2 style="color:orange;">Good Afternoon, '.$name.'</h2>
     <img src="./images/afternoon.png" alt="afternoon">
-    <p>It\s the afternoon!</p>';
+    <p>It\'s the afternoon!</p>';
 } else {
     echo '<h2 style="color:blue;"Good Evening, '.$name.'</h2>
     <img src="./images/moon.png" alt="moon">
-    <p>It\s time to wind down.</p>';
+    <p>It\'s time to wind down.</p>';
 }
