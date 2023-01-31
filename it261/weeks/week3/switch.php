@@ -105,6 +105,10 @@ img {
 p {
     margin-bottom:20px;
 }
+
+ul {
+    margin:10px;
+}
     </style>
 </head>
 <body>

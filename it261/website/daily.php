@@ -20,7 +20,7 @@ switch($today) {
             break;
 
         case 'Saturday' :
-            $day = '<h2>Saturdays are meant for relaxation.</h2>';
+            $day = '<h2>Saturdays are meant for speed.</h2>';
             $pic = 'bunny.jpg';
             $alt = 'Saturday';
             $content = '<p>"I don\'t want to look back. I want to keep going forward, I still have something to say to people." <b>-Joe Strummer</b></p>';
@@ -92,7 +92,7 @@ echo $day;
     <li><a href="daily.php?today=Friday">Friday</a></li>
     <li><a href="daily.php?today=Saturday">Saturday</a></li>
 </ul>
-            <h2></h2>
+            <h2>Second Headline</h2>
             <p>
                 In hendrerit gravida rutrum quisque non tellus orci ac. Urna id volutpat lacus laoreet non curabitur. Proin nibh nisl condimentum id venenatis a condimentum vitae. Massa tincidunt nunc pulvinar sapien et ligula. Egestas congue quisque egestas diam in arcu cursus. Nibh sed pulvinar proin gravida. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Nullam non nisi est sit amet facilisis. In aliquam sem fringilla ut morbi tincidunt augue interdum. Tristique senectus et netus et malesuada fames ac turpis. At tellus at urna condimentum mattis pellentesque. Sed viverra ipsum nunc aliquet bibendum. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Purus sit amet luctus venenatis lectus magna fringilla urna. A diam maecenas sed enim ut sem. Non tellus orci ac auctor augue mauris. Mattis aliquam faucibus purus in massa tempor nec. Cursus eget nunc scelerisque viverra mauris.
             </p>
