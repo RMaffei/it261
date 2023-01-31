@@ -7,7 +7,7 @@
 // be careful with { braces }!!!!
 
 if(isset($_POST['first_name'],
-$_POST['last name'],
+$_POST['last_name'],
 $_POST['email'],
 $_POST['comments'])) {
 $first_name = $_POST['first_name'];
@@ -19,7 +19,7 @@ $comments = $_POST['comments'];
 
 if(empty($_POST['first_name'] && 
 $_POST['last_name'] && 
-$_POST['email']
+$_POST['email'] &&
 $_POST['comments'])) {
 
 echo 'Please fill out all of the fields';

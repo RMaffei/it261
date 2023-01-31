@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celcius Document</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celcius Document</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1>Celcius Form Converter</h1>
-    <form action="<?php echo $_SERVER['PHP_SELF']    ;?>"  method="post">
+<h1>Celcius Form Converter</h1>
+<form action="<?php echo $_SERVER['PHP_SELF']    ;?>"  method="post">
 <fieldset>  
-    <label>Enter your celcius value:</label>
-    <input type="number" value="cel">
-    <input type="submit" value="Convert it!">
-
+<label>Enter your celcius value:</label>
+<input type="number" name="cel">
+<input type="submit" value="Convert it!">
 </fieldset>
 <p><a href="">RESET</a></p>
 </form>
@@ -51,7 +50,7 @@ and it is sweater weather! </p>';
 
 elseif($far <= 75) {
 echo '<p> '.$cel_int.' degrees celcius equals   '.$far.' degrees farenheit <br> 
-    and we\'re going to the park! </p>';
+and we\'re going to the park! </p>';
 }
 
 
@@ -61,14 +60,12 @@ echo '<p> '.$cel_int.' degrees celcius equals   '.$far.' degrees farenheit <br>
 }
 
 else {
-    echo '<p> '.$cel_int.' degrees celcius equals  '.$far.' degrees farenheit <br>
-    and we are at the beach!  </p>';
+echo '<p> '.$cel_int.' degrees celcius equals   '.$far.' degrees farenheit <br>
+and we are at the beach! </p>';
 }
 
 } // end isset
-
-}
-
+} // end post
 ?>
 
 </body>

@@ -36,13 +36,13 @@
 // our second if statement for the case there are empty fields --- echo 'please fill out all fields!' if the fields are not empty, then my else will display an echo of the info
 
 if(isset($_POST['first_name'],
-$_POST['last_name',
+$_POST['last_name'],
 $_POST['email'],
-$_POST['comments']])) {
+$_POST['comments'])) {
 
 $first_name = $_POST['first name'];
 $last_name = $_POST['last_name'];
-$email = $_POST['email'],
+$email = $_POST['email'];
 $comments = $_POST['comments'];
 
 // nest another if statement in reference to the fields being empty

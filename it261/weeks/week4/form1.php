@@ -11,6 +11,8 @@ $_POST['email'])) {
     echo '
     <form action= "" method="post">
     <label>NAME</label>
+    <input type="text" name="name">
+    <label>EMAIL</label>
 <input type="email" name="email">
 
 <input type="submit" value="Send it!">
