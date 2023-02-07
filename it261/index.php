@@ -44,7 +44,7 @@
         </ol>
         <h3>Week 3</h3>
         <ol>
-        <li><a href="weeks/week3/about.php">about.php</a></li>
+            <li><a href="weeks/week3/about.php">about.php</a></li>
             <li><a href="weeks/week3/date.php">date.php</a></li>
             <li><a href="weeks/week3/for-each.php">for-each.php</a></li>
             <li><a href="weeks/week3/for-loop.php">for-loop.php</a></li>
@@ -53,7 +53,7 @@
         </ol>
         <h3>Week 4</h3>
         <ol>
-        <li><a href="weeks/week4/adder.php">adder.php</a></li>
+            <li><a href="weeks/week4/adder.php">adder.php</a></li>
             <li><a href="weeks/week4/arithmetic-form.php">arithmetic-form.php</a></li>
             <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
             <li><a href="weeks/week4/form1.php">form1.php</a></li>
@@ -61,6 +61,15 @@
             <li><a href="weeks/week4/form3.php">form3.php</a></li>
             <li><a href="weeks/week4/form-get.php">form-get.php</a></li>
         </ol>
+        <h3>Week 5</h3>
+        <ol>
+            <li><a href="weeks/week5/currency1.php">currency1.php</a></li>
+            <li><a href="weeks/week5/currency2.php">currency2.php</a></li>
+            <li><a href="weeks/week5/currency3.php">currency3.php</a></li>
+            <li><a href="weeks/week5/null.php">null.php</a></li>
+            <li><a href="weeks/week5/calculator.php">calculator.php</a></li>
+        </ol>
+        
         </aside>
     </div>
     <div class="footer">
