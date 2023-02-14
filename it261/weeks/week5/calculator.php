@@ -16,7 +16,7 @@
         <label>TOTAL MILES DRIVING?</label>
         <input type="number" name="miles" value="<?php if(isset($_POST['miles'])) echo htmlspecialchars($_POST['miles'])  ;?>">
 
-        <label>HOW FAST DO YOU DRIVE?</label>
+        <label>HOW FAST DO YOU DRIVE (MPH)?</label>
         <input type="number" name="speed" value="<?php if(isset($_POST['speed'])) echo htmlspecialchars($_POST['speed'])  ;?>">
 
         <label>HOURS PER DAY SPENT DRIVING?</label>
