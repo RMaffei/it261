@@ -1,0 +1,77 @@
+/* styles for form - week 6 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: beige;
+}
+
+.current {
+  color: red;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+fieldset {
+  border: 1px solid thistle;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+select,
+textarea {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: 140px;
+}
+
+form ul {
+  margin-bottom: 7px;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.box {
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.error {
+  display: block;
+  color: red;
+  font-style: italic;
+  text-align: center;
+}

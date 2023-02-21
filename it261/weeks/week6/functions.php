@@ -84,6 +84,14 @@ function make_links($nav)
     }
   } // end foreach
   return $my_return;
+  $nav = array(
+    'index.php' => 'Home',
+    'about.php' => 'About',
+    'daily.php' => 'Daily',
+    'project.php' => 'Project',
+    'contact.php' => 'Contact',
+    'gallery.php' => 'Gallery',
+  );
 } // end function
 
 echo '<h2>Our Navigation created with a function!</h2>';
