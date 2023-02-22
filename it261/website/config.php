@@ -71,6 +71,7 @@ $regions_err = '';
 $privacy_err = '';
 $comments_err = '';
 
+// HW3 switch
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   if (empty($_POST['first_name'])) {
