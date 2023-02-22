@@ -1,120 +1,77 @@
-/* styles for my website */
+/* styles for form - week 6 */
 
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color:beige;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: beige;
 }
 
-header {
-    background:yellow;
-    height:200px;
-    padding:20px 0;
+.current {
+  color: red;
 }
 
-.inner-header {
-    max-width:1200px;
-    margin:0px auto;
-    overflow:hidden;
+form {
+  max-width: 400px;
+  margin: 20px auto;
 }
 
-#logo {
-    width:200px;
-    float:left;
+fieldset {
+  border: 1px solid thistle;
+  padding: 10px;
 }
 
-nav ul {
-    float:right;
-    margin-top:30px;
-    list-style-type:none;
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-nav li {
-    float:left;
-    margin-left:30px;
+input[type=text],
+input[type=email],
+input[type=tel] {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
 }
 
-nav a {
-    text-decoration:none;
+input[type=submit] {
+  margin-bottom: 10px;
+  display: block;
 }
 
-#wrapper {
-    max-width:1200px;
-    margin:20px auto;
-    overflow:hidden;
+
+select,
+textarea {
+  margin-bottom: 10px;
 }
 
-#hero {
-    background:red;
-    margin-bottom:20px;
+textarea {
+  width: 100%;
+  resize: none;
+  height: 140px;
 }
 
-main {
-    width:62%;
-    background:lightblue;
-    float:left;
-    padding:10px;
+form ul {
+  margin-bottom: 7px;
+  list-style-type: none;
+  margin-left: 10px;
 }
 
-aside {
-    width:35%;
-    background:lightsalmon;
-    float:right;
-    padding:10px;
+.box {
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-footer {
-    height:60px;
-    line-height:60px;
-    background:#ddd;
-    clear:both;
-}
-
-footer ul {
-    display:flex;
-    justify-content:center;
-    list-style-type:none;
-}
-
-footer li {
-    justify-content:center;
-    margin:0 15px;
-}
-
-img {
-    max-width:100%;
-}
-
-/* typography */
-
-p, ul {
-    margin-bottom:20px;
-    line-height:1.4;
-
-}
-
-ul {
-    padding:10px;
-}
-
-h1 {
-    font-size:2.5em;
-}
-
-h2 {
-    font-size:2em;
-}
-
-h3 {
-    font-size:1.5em;
-}
-
-h1, h2, h3 {
-    margin-bottom:10px;
-    font-family:playfair, serif; 
+.error {
+  display: block;
+  color: red;
+  font-style: italic;
+  text-align: center;
 }

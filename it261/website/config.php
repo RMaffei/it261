@@ -52,6 +52,8 @@ function make_links($nav)
   return $my_return;
 } // end function
 
+// form2.php
+
 $first_name = '';
 $last_name = '';
 $email = '';
@@ -70,6 +72,7 @@ $gender_err = '';
 $regions_err = '';
 $privacy_err = '';
 $comments_err = '';
+
 
 // HW3 switch
 
