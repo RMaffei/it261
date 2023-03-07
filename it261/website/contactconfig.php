@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (!empty($_POST['pizzas'])) {
       $my_return = implode(', ', $_POST['pizzas']);
     } else {
-      $pizzas_err = 'Please choose your Pizzas!';
+      $pizzas_err = 'Please choose your toppings!';
     }
 
     return $my_return;

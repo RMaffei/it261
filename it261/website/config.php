@@ -16,8 +16,12 @@ switch (THIS_PAGE) {
     $title = 'Daily page of our Website project';
     $body = 'daily inner';
     break;
-  case 'project.php':
-    $title = 'Project page of our Website project';
+  case 'pizza.php':
+    $title = 'Pizza Page';
+    $body = 'project inner';
+    break;
+  case 'people.php':
+    $title = 'People Page';
     $body = 'project inner';
     break;
   case 'contact.php':
@@ -35,7 +39,8 @@ $nav = array(
   'index.php' => 'Home',
   'about.php' => 'About',
   'daily.php' => 'Daily',
-  'project.php' => 'Project',
+  'project.php' => 'Pizza',
+  'people.php' => 'People',
   'contact.php' => 'Contact',
   'gallery.php' => 'Gallery',
 );
@@ -50,7 +55,8 @@ function make_links($nav)
     }
   } // end foreach
   return $my_return;
-} // end function
+}
+// end function
 
 // form2.php
 
@@ -143,7 +149,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     return $my_return;
-  } // end wine function 
+  }
+  // end wine function 
 }
 
 if (isset(
@@ -308,4 +315,22 @@ if (isset(
       header('Location:thx.php');
     }
   } // end of server request method
+}
+
+//function for database conection
+
+ob_start();  // prevents header errors before reading the whole page!
+define('DEBUG', 'TRUE');  // We want to see our errors
+
+include('credentials.php');
+function myError($myFile, $myLine, $errorMsg)
+{
+  if (defined('DEBUG') && DEBUG) {
+    echo 'Error in file: <b> ' . $myFile . ' </b> on line: <b> ' . $myLine . ' </b>';
+    echo 'Error message: <b> ' . $errorMsg . '</b>';
+    die();
+  } else {
+    echo ' Houston, we have a problem!';
+    die();
+  }
 }
